@@ -1,33 +1,33 @@
 {
-    "name": "node-red-contrib-homekit-bridged",
-    "version": "0.3.6",
-    "description": "Node-RED nodes to simulate Apple HomeKit devices. Based on node-red-contrib-homekit, but with support for bridged devices.",
-    "main": "homekit.js",
-    "scripts": {
-        "test": "test"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/oliverrahner/node-red-contrib-homekit-bridged.git"
-    },
-    "keywords": [
-        "homekit",
-        "hap-nodejs",
-        "node-red",
-        "iot"
-    ],
-    "node-red": {
-        "nodes": {
-            "homekit": "homekit.js"
-        }
-    },
-    "author": "Marius Schmeding, Oliver Rahner",
-    "license": "Apache-2.0",
-    "bugs": {
-        "url": "https://github.com/oliverrahner/node-red-contrib-homekit-bridged/issues"
-    },
-    "homepage": "https://github.com/oliverrahner/node-red-contrib-homekit-bridged#readme",
-    "dependencies": {
-        "hap-nodejs": "^0.4.27"
+  "name": "node-red-contrib-homekit-bridged",
+  "version": "0.3.6",
+  "description": "Node-RED nodes to simulate Apple HomeKit devices. Based on node-red-contrib-homekit, but with support for bridged devices.",
+  "main": "homekit.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverrahner/node-red-contrib-homekit-bridged.git"
+  },
+  "keywords": [
+    "homekit",
+    "hap-nodejs",
+    "node-red",
+    "iot"
+  ],
+  "node-red": {
+    "nodes": {
+      "homekit": "homekit.js"
     }
+  },
+  "author": "Marius Schmeding, Oliver Rahner",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/oliverrahner/node-red-contrib-homekit-bridged/issues"
+  },
+  "homepage": "https://github.com/oliverrahner/node-red-contrib-homekit-bridged#readme",
+  "dependencies": {
+    "hap-nodejs": "git+https://github.com/googoid/HAP-NodeJS.git"
+  }
 }
