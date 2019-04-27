@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/oliverrahner/node-red-contrib-homekit-bridged#readme",
   "dependencies": {
-    "hap-nodejs": "git+https://github.com/googoid/HAP-NodeJS.git#v0.4.27"
+    "hap-nodejs": "git+https://github.com/googoid/HAP-NodeJS.git#conn-close-fix"
   }
 }
